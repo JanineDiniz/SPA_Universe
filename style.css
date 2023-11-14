@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  font-size: 62.5%;/* 10px */
+}
+body{
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+}
+nav{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 2.5rem;
+  gap: 5rem;
+  margin: 4rem 7.2rem;
+}
+a{
+  color: #C4C4CC;
+  text-decoration: none;
+  transition: all .5s ease-in-out;
+}
+a:hover, a:active{
+  color: white;
+  font-weight: 700;
+}
+h1, h2, p{
+  color: #E1E1E6;
+}
+#home_container{
+  display: grid;
+  place-items: center;
+  height: 85vh;
+  text-align: center;
+}
+h1{
+  font-size: 4.8rem;
+  font-weight: 700;
+}
+button{
+  padding: 2.5rem 5rem;
+  border: .2rem solid white;
+  border-radius: .5rem;
+  background-color: transparent;
+  color: white;
+  font-size: 1.4rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-top: 2.4rem;
+  cursor: pointer;
+}
+.content{
+  display: flex;
+  flex-direction: column;
+  width: 85rem;
+  font-size: 2.5rem;
+  margin: 18.5rem 10.2rem;
+}
+.content p{
+  margin-top: 3rem;
+  line-height: 160%;
+}
+
+.home{
+  background-image: url('./assets/mountain1.png');
+}
+.universe{
+  background-image: url('./assets/mountain2.png');
+}
+.exploration{
+  background-image: url('./assets/mountain3.png');
+}
